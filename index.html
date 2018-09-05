@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+  <style>
+    body {
+            background-image: url("http://www.free-animated-pictures.com/3d_monkey_flying.gif")
+    } 
+     
+    </style>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Aplicacion chida</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">La aplicación deberá imprimir la latitud y longitud del usuario, así como su User Agent.</h5>
+      </div>
+      <div class="row center">
+          <p>Pushea el boton</p>
+
+<button onclick="getLocation()">PUSHEALO</button>
+
+<p id="demo"></p>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <script>
+  var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitud: " + position.coords.latitude + 
+    "<br>Longitud: " + position.coords.longitude +
+    "<br>User agent: " + navigator.userAgent;
+}
+
+    </script>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="materialize/js/init.js"></script>
+
+  </body>
+</html>
