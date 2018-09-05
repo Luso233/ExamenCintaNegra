@@ -1,0 +1,78 @@
+Instrucciones:
+La prueba está dividida en tres secciones. Las secciones 1 y 2 se pueden responder omitiendo la sección 3, en caso contrario solo se puede contestar la sección 3 omitiendo las secciones 1 y 2.
+
+Seccion 1
+Responde las siguientes en tus propias palabras
+
+¿Qué es HTTP y en donde se utiliza?
+El Protocolo de transferencia de hipertexto, sirve para hacer tranferencias de informacion entre un navegador y la world wide web
+¿Menciona los Verbos HTTP más utilizados?
+404: Not found 
+502: bad gateway
+200: ok
+420: enhance your calm :v
+En breves palabras , ¿ En qué consiste la arquitectura cliente-servidor?
+Basicamente, el servidor manda datos a traves del internet y el cliente los obtiene. Imaginando que esta arquitectura funciona como un restaurant
+el cliente hace una orden y el servidor la cocina y a traves de la red cumple con su request, entonces el cliente 
+, en respuesta de el cumplimineot de su servicio da un pago, analogo de una response.
+¿Qué tipos de relaciones hay en SQL?
+Relacionales y no relacionales
+¿Que hace el siguiente comando “git commit”?
+Es necesario para crear un commit en github, una especie punto en una linea de tiempo en el desarrollo de un
+proyecto, parecido a un save state de un videojuego.
+¿Como se compone MVC?
+
+¿En qué consiste la Programación Orientada a Objetos?
+Basicamnete, en crear aplicaciones y programas que esten enfocados en el uso de estos componentes, los objetos.
+Siguen una especie de paradigma (como el de HTML con las cajas) en el que los datos son organizados de forma ¿arboreal?(De ramas, con datos dentro de otros datos 
+y objetos dentro de objetos), con un sistema de herencia y 
+¿Que es REGEX  y que usos le darías ?
+
+¿Que hacen los siguentes comandos de consola?
+CP 
+MKDIR: Crear un directorio
+CD: Cambiar de directorio (Moverse entre carpetas)
+LS: Ver donde estas parado
+TOUCH: Crear un nuevo archivo
+TOP
+¿Qué es un Middleware?
+Una pieza de software que sirve como intermediario para conectar a el back con el front
+¿Que es una “promesa” en javascript?
+Similarmente a una  promesa en la vida real es como decir "Te prometo que hare tal cosa", lo usas
+en javascript para algo que se ejecutara pasado un tiempo determinado o cumplida una cierta condicion
+¿Como creas un nuevo repositorio en git?
+Abres tu perfil de github
+Vas a repositories
+le pones en new, le pones nombre  y todo el pedo, creas tu repositorio
+copias el link que te da a la derecha
+Abres tu terminal
+te situas en la carpeta a la que quieras hacer repositorio
+le pones git init 
+le pones git add -A
+le pones git commit -m "Creado repositorio o lo que sea xdddd"
+le pones git push origin "El link que te dio al repo de github"
+y ya :)
+
+
+Sección 2
+
+Resuelve los siguientes ejercicios de lógica, no importando el lenguaje de programación. Para el código puedes crear un gist publico ( https://gist.github.com/ )  y poner el enlace debajo de cada problema o subirlo a un repositorio en github.
+
+Given an input string, reverse the string word by word. For example, given s = "the sky is blue", return "blue is sky the". 
+
+Given a string, find the length of the longest substring without repeating characters. For example, the longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
+
+Given two words, beginWord and endWord, and a wordList of approved words, find the length of the shortest transformation sequence from beginWord to endWord such that:
+Only one letter can be changed at a time
+Each transformed word must exist in the wordList.
+Return the length of the shortest transformation sequence, or 0 if no such transformation sequence exists.
+Note: beginWord does not count as a transformed word. You can assume that beginWord and endWord are not empty and are not the same.
+Example:  For beginWord = "hit", endWord = "cog", and wordList = ["hot", "dot", "lot", "log", "cog"], the output should be wordLadder(beginWord, endWord, wordList) = 5.
+The shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog" with a length of 5
+
+Sección 3
+
+Crea una instancia en Heroku , Netlify , Firebase  o cualquier otra plataforma de cloud que exponga una aplicación web que:
+La aplicación deberá imprimir la latitud y longitud del usuario, así como su User Agent.
+Comparte la URL del repo en Github o Bitbucket.
+Comparte la URL donde esta hosteado el proyecto
